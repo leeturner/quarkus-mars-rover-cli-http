@@ -1,6 +1,8 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
 plugins {
-    kotlin("jvm") version "1.9.23"
-    kotlin("plugin.allopen") version "1.9.23"
+    kotlin("jvm") version "2.0.10"
+    kotlin("plugin.allopen") version "2.0.10"
     id("io.quarkus")
 }
 
@@ -31,8 +33,8 @@ group = "com.leeturner"
 version = "1.0.0-SNAPSHOT"
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
 }
 
 tasks.withType<Test> {
@@ -46,6 +48,6 @@ allOpen {
 }
 
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
-    kotlinOptions.jvmTarget = JavaVersion.VERSION_17.toString()
-    kotlinOptions.javaParameters = true
+    compilerOptions.jvmTarget.set(JvmTarget.JVM_21)
+    compilerOptions.javaParameters.set(true)
 }
