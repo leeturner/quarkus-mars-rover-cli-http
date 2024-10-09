@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/rovers"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+        "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "id": 0,
+        "name": "Spirit - Test"
+      },
+      {
+        "id": 1,
+        "name": "Opportunity - Test"
+      },
+      {
+        "id": 2,
+        "name": "Curiosity - Test"
+      },
+      {
+        "id": 3,
+        "name": "Perseverance - Test"
+      },
+      {
+        "id": 4,
+        "name": "Sojourner - Test"
+      }
+    ]
+  }
+}
