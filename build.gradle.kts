@@ -23,8 +23,8 @@ dependencies {
     implementation("io.quarkus:quarkus-rest-client-jackson")
     testImplementation("io.quarkus:quarkus-junit5")
     testImplementation("io.rest-assured:rest-assured")
-    testImplementation("io.quarkiverse.wiremock:quarkus-wiremock:1.3.1")
-    testImplementation("io.quarkiverse.wiremock:quarkus-wiremock-test:1.3.1")
+    testImplementation("io.quarkiverse.wiremock:quarkus-wiremock:1.3.3")
+    testImplementation("io.quarkiverse.wiremock:quarkus-wiremock-test:1.3.3")
 }
 
 group = "com.leeturner"
