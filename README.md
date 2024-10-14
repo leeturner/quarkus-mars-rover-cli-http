@@ -61,7 +61,7 @@ section of the documentation and then move onto the [Request Matching](https://w
 [Response Templating](https://wiremock.org/docs/response-templating/) sections.
 
 ## WireMock Cloud
-[WireMock Cloud](https://www.wiremock.io/?utm_source=github&utm_medium=referral&utm_campaign=quarkus-insights&utm_term=quarkus-mars-rover-service-http)
+[WireMock Cloud](https://www.wiremock.io/?utm_source=github&utm_medium=referral&utm_campaign=quarkus-insights&utm_term=quarkus-mars-rover-cli-http)
 is a managed, hosted version of WireMock, developed by the same team who wrote the open-source project. It's built on
 the same technology that powers open source WireMock and is 100% compatible with the WireMock API, with additional
 features that make it quick and easy to mock any API you depend on. WireMock Cloud also introduces advanced capabilities
